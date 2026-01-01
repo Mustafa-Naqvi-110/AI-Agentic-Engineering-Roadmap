@@ -20,7 +20,7 @@ The project is organized into 4 high-level modules, progressing from infrastruct
 ### 🔹 Module 01: Infrastructure & RAG
 *Focus: Tying LLMs to data and memory.*
 - [x] **01_Python_APIs**: Handling OpenAI/Anthropic API calls and structured JSON outputs.
-- [ ] **02_Vector_DBs**: Implementing semantic search (Pinecone/ChromaDB).
+- [x] **02_Vector_DBs**: Implementing semantic search (Pinecone/ChromaDB).
 - [ ] **03_Basic_RAG**: Building "Chat with PDF" using LangChain.
 - [ ] **04_Advanced_RAG**: Hybrid search, Re-ranking, and hallucination reduction.
 
