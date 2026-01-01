@@ -16,9 +16,7 @@ LLMs have limited context windows. To build agents that know about your specific
 
 ```text
 02-Vector-DBs/
-├── notes/               # Knowledge Base (Text files)
-│   ├── meeting_notes.txt
-│   └── project_ideas.txt
+├── notes                # Knowledge Base (Text files)
 ├── src/                 # Source Code
 │   ├── ingest.py        # ETL Pipeline: Load -> Embed -> Store
 │   └── search.py        # Query Interface: Ask -> Retrieve
