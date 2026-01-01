@@ -53,7 +53,8 @@ python -m openai_client.openai_json
 python -m anthropic_client.claude_json
 ```
 
-### Usage: python cli_tools/summarize.py
+### 3. CLI Text Summarizer
+*Summarize a text file from your terminal.*
 ```bash
+# Usage: python cli_tools/summarize.py <path_to_file>
 python cli_tools/summarize.py sample_data.txt
-```
