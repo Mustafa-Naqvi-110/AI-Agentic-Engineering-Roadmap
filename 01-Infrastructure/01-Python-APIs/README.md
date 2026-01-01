@@ -24,6 +24,7 @@ Reliable agents require reliable inputs and outputs. This module builds the wrap
 │   └── summarize.py     # CLI Text Summarizer
 └── utils/               # Shared Utilities
     └── json_utils.py    # Safe JSON Parsing & Validation
+```
 🛠️ Key Concepts Implemented
 Structured Outputs: Forcing models to return valid JSON schemas (e.g., extracting Task, Difficulty, Tools) using system prompts.
 
