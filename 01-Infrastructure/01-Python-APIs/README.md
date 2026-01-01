@@ -25,40 +25,23 @@ Reliable agents require reliable inputs and outputs. This module builds the wrap
 └── utils/               # Shared Utilities
     └── json_utils.py    # Safe JSON Parsing & Validation
 ```
-🛠️ Key Concepts Implemented
-Structured Outputs: Forcing models to return valid JSON schemas (e.g., extracting Task, Difficulty, Tools) using system prompts.
+## 🛠️ Key Concepts Implemented
 
-Resilience Patterns: Implementing Exponential Backoff to handle RateLimitError without crashing.
+* **Structured Outputs:** Forcing models to return valid JSON schemas (e.g., extracting `Task`, `Difficulty`, `Tools`) using system prompts.
+* **Resilience Patterns:** Implementing **Exponential Backoff** to handle `RateLimitError` without crashing.
+* **Safety Layers:** A centralized `json_utils` parser to sanitize LLM responses before they hit your application logic.
+* **CLI Engineering:** Building modular command-line interfaces using `argparse`.
 
-Safety Layers: A centralized json_utils parser to sanitize LLM responses before they hit your application logic.
+---
 
-CLI Engineering: Building modular command-line interfaces using argparse.
+## 💻 How to Run
 
-💻 How to Run
-Prerequisites:
+**Prerequisites:**
+1. Navigate to this folder: `cd 01-Python-APIs`
+2. Install SDKs: `pip install openai anthropic`
+3. Ensure `.env` keys are set in the parent directory.
 
-Navigate to this folder: cd 01-Python-APIs
-
-Install SDKs: pip install openai anthropic
-
-Ensure .env keys are set in the parent directory.
-
-1. OpenAI JSON Generator
-Runs the GPT wrapper with automatic retries.
-
-Bash
-
+### 1. OpenAI JSON Generator
+*Runs the GPT wrapper with automatic retries.*
+```bash
 python -m openai_client.openai_json
-2. Anthropic (Claude) JSON Generator
-Runs the Claude wrapper with strict type enforcement.
-
-Bash
-
-python -m anthropic_client.claude_json
-3. CLI Text Summarizer
-Summarize a text file from your terminal.
-
-Bash
-
-# Usage: python cli_tools/summarize.py <path_to_file>
-python cli_tools/summarize.py sample_data.txt
