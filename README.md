@@ -62,7 +62,7 @@ Each module in this repository is self-contained. To run the code, please follow
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/YOUR_USERNAME/AI-Agentic-Engineering-Roadmap.git](https://github.com/YOUR_USERNAME/AI-Agentic-Engineering-Roadmap.git)
+    git clone [https://github.com/Mustafa-Naqvi-110/AI-Agentic-Engineering-Roadmap.git](https://github.com/Mustafa-Naqvi-110/AI-Agentic-Engineering-Roadmap.git)
     cd AI-Agentic-Engineering-Roadmap
     ```
 
@@ -79,7 +79,7 @@ Each module in this repository is self-contained. To run the code, please follow
 ---
 
 ## 📈 Roadmap Phases
-* **Phase 1:** Infrastructure (Current)
+* **Phase 1:** Infrastructure 
 * **Phase 2:** Single Agents
 * **Phase 3:** Multi-Agent Orchestration
 * **Phase 4:** Deployment & Portfolio
