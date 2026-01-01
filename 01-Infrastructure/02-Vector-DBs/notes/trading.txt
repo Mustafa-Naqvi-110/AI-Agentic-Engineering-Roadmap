@@ -1,0 +1,8 @@
+3. Trading: From Shouting to Supercomputers
+Trading is one of the oldest human activities, but it has changed more in the last 30 years than in the previous 3,000.
+
+The Floor Era: For centuries, traders stood in "pits" (like the NYSE) shouting and using hand signals to buy and sell stocks.
+
+The Electronic Revolution (1970s - 90s): The launch of NASDAQ in 1971 marked the move to computer screens. By the late 90s, the "shouting pits" began to disappear.
+
+The Algorithmic Age: Once trading became digital, people realized they didn't need to click buttons—they could write code to do it.

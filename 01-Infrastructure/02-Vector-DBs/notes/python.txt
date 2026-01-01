@@ -1,0 +1,10 @@
+2. Python: From Hobby Project to Global Standard
+While AI was evolving, a programmer named Guido van Rossum spent his Christmas break in 1989 creating a new language.
+
+The Goal: He wanted something easier to read than C++ but more powerful than basic scripting. He named it after the comedy show Monty Python’s Flying Circus.
+
+Why it Won: Python wasn't the fastest language, but it was the friendliest. It allowed researchers to write complex math in just a few lines of code.
+
+The "AI Connection": Because Python was so easy to use, the scientific community built massive libraries for it (like NumPy and Pandas). When Google and Meta released AI tools like TensorFlow and PyTorch, they chose Python as the primary language.
+
+Result: Today, you cannot talk about AI without talking about Python.

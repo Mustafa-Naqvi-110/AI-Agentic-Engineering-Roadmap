@@ -1,0 +1,12 @@
+1. Artificial Intelligence: The Search for a "Digital Brain"
+AI began as a philosophical dream long before computers existed.
+
+The Foundation (1950s): Alan Turing proposed the "Turing Test" to define machine intelligence. In 1956, the Dartmouth Workshop officially birthed "Artificial Intelligence" as a field of study.
+
+The "Winters" and Springs: AI went through cycles of extreme hype followed by "AI Winters" (periods of no funding) when early machines couldn't live up to the promise.
+
+The Big Shift (2010s - Present): With the rise of "Big Data" and powerful GPUs, AI moved from simple rule-based logic to Deep Learning.
+
+2012: AI learned to recognize images (AlexNet).
+
+2017: The Transformer architecture (the "T" in ChatGPT) was invented, allowing AI to understand context and sequence—the very foundation of the LLMs you are using now.
