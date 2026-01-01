@@ -45,3 +45,13 @@ Reliable agents require reliable inputs and outputs. This module builds the wrap
 *Runs the GPT wrapper with automatic retries.*
 ```bash
 python -m openai_client.openai_json
+```
+
+### 2. Anthropic (Claude) JSON Generator
+*Runs the Claude wrapper with strict type enforcement.*
+```bash
+python -m anthropic_client.claude_json
+```
+
+# Usage: python cli_tools/summarize.py <path_to_file>
+python cli_tools/summarize.py sample_data.txt
