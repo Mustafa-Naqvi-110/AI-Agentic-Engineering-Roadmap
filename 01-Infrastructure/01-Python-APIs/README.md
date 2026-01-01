@@ -53,5 +53,7 @@ python -m openai_client.openai_json
 python -m anthropic_client.claude_json
 ```
 
-# Usage: python cli_tools/summarize.py <path_to_file>
+### Usage: python cli_tools/summarize.py
+```bash
 python cli_tools/summarize.py sample_data.txt
+```
